@@ -15,9 +15,9 @@ import os
 from pathlib import Path
 
 #et sted at samle mine plots
-home = str(Path.home())
-path = 
-potpath = path + "/plots"#
+#home = str(Path.home())
+#path = 
+#potpath = path + "/plots"#
 
 #definerer funktioner
 
@@ -90,10 +90,10 @@ solution2 = least_squares(DMP_steady_state, initial_guess_array, args=parameters
 print(solution2)
 
 #Grafik
-theta_grid = np.linspace(0.5,5,50)
+#theta_grid = np.linspace(0.5,5,50)
 
-fig1, ax1 =plt.subplots()
-ax1.plot(theta_grid,wage_curve(theta_grid,parameters),label='wage curve')
-ax1.plot(theta_grid,job_creation(theta_grid,parameters),label='job creation curve')
+#fig1, ax1 =plt.subplots()
+#ax1.plot(theta_grid,wage_curve(theta_grid,parameters),label='wage curve')
+#ax1.plot(theta_grid,job_creation(theta_grid,parameters),label='job creation curve')
 
 
