@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 #Define a function to solve a function with Newton Rhapson
 def f(x):
@@ -22,3 +23,12 @@ x0 = 1.5
 root = newton_raphson(x0)
 
 print("Root:", root)
+=======
+# Kan du se det her
+#Define a function to solve a function of form x^y=z for x
+def myfunc(y,z):
+    x = z**(1/y)
+    return(x)
+    
+print(myfunc(3,5))
+>>>>>>> b2ae90ec152203401f23cd89e7587479a22377be
